@@ -1,0 +1,91 @@
+#fond{
+    background-image: url("carrelage.jpg");
+    background-repeat: repeat;
+    height:1000px;
+}
+
+
+
+.table{
+    background-image: url("wood-bg.jpg");
+    height:800px;
+    width:300px;
+    border:2px solid black;
+    position:relative;
+    border-radius:1.2em;
+    margin-top:10px;
+    z-index:2;
+}
+.chaise{
+    background-image:url("wooden-bg-2.jpg");
+    height:75px;
+    width:145px;
+    position:absolute;
+    border:1px solid black;
+    border-radius:1.5em;
+    line-height:75px;
+
+}
+.chaise-rangé-gauche{
+    left:110px;
+    text-align:center;
+    writing-mode:vertical-rl;
+    text-orientation: initial;
+    transform:rotate(180deg);
+    color: rgb(255, 255, 255);
+    font-weight:bold;
+}
+
+.chaise-rangé-droite{
+    left:365px;
+    text-align:center;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    color: #ffffff;
+    font-weight:bold;
+
+}
+
+.chaise-rangé-gauche-2{
+    left:620px;
+    text-align:center;
+    writing-mode:vertical-rl;
+    text-orientation: initial;
+    transform:rotate(180deg);
+    color: rgb(255, 255, 255);
+    font-weight:bold;
+}
+
+.chaise-rangé-droite-2{
+    left:870px;
+    text-align:center;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    color: #ffffff;
+    font-weight:bold;
+}
+
+.rangé-1{
+    top:50px;
+}
+
+.rangé-2{
+    top:175px;
+}
+
+.rangé-3{
+    top:300px;
+}
+
+.rangé-4{
+    top:425px;
+}
+
+.rangé-5{
+    top:550px;
+}
+
+.rangé-6{
+    top:675px;
+}
+
